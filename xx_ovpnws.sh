@@ -477,7 +477,7 @@ socket = r:TCP_NODELAY=1
 client = no
 [openvpn]
 accept = 443
-connect = 127.0.0.1:80'| sudo tee /etc/stunnel/stunnel.conf
+connect = 127.0.0.1:1194'| sudo tee /etc/stunnel/stunnel.conf
 
 
 
