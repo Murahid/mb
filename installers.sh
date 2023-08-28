@@ -82,6 +82,7 @@ tls-version-min 1.2
 tls-cipher TLS-ECDHE-RSA-WITH-AES-128-GCM-SHA256
 cipher none
 ncp-disable
+duplicate-cn
 auth none
 sndbuf 0
 rcvbuf 0
@@ -124,6 +125,7 @@ cert /etc/openvpn/easy-rsa/keys/server.crt
 key /etc/openvpn/easy-rsa/keys/server.key 
 dh none
 tls-server
+duplicate-cn
 tls-version-min 1.2
 tls-cipher TLS-ECDHE-RSA-WITH-AES-128-GCM-SHA256
 cipher none
@@ -180,6 +182,7 @@ sndbuf 0
 rcvbuf 0
 keepalive 10 120
 persist-key
+duplicate-cn
 persist-tun
 ping-timer-rem
 reneg-sec 0
